@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "Microsoft.AspNet.Mvc": "0.1-alpha-*",
+        "Nowin.vNext": ""
+    },
+    "commands": {
+        "web": "Microsoft.AspNet.Hosting --server Nowin.vNext"
+    }
+}
