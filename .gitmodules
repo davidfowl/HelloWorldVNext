@@ -1,0 +1,3 @@
+[submodule "firefly"]
+    path = firefly
+    url = https://github.com/FireflyServer/firefly.git
