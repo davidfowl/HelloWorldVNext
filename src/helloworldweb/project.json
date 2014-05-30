@@ -4,6 +4,8 @@
         "Nowin.vNext": ""
     },
     "commands": {
-        "web": "Microsoft.AspNet.Hosting --server Nowin.vNext"
+        "web": "Microsoft.AspNet.Hosting --server Nowin.vNext",
+        "web-firefly": "Microsoft.AspNet.Hosting --server firefly",
+        "web-nowin": "Microsoft.AspNet.Hosting --server Nowin.vNext"
     }
 }
