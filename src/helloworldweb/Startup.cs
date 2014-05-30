@@ -6,7 +6,9 @@ public class Startup
     {
         app.Run(async context =>
         {
-            await context.Response.WriteAsync("Hello World");
+            var payload = "Hello World";
+            context.Response.ContentLength = payload.Length;
+            await context.Response.WriteAsync(payload);
         });
     }
 }
