@@ -5,7 +5,7 @@
     },
     "commands": {
         "web": "Microsoft.AspNet.Hosting --server Nowin.vNext",
-        "web-firefly": "Microsoft.AspNet.Hosting --server firefly",
+        "web-firefly": "Microsoft.AspNet.Hosting --server Firefly",
         "web-nowin": "Microsoft.AspNet.Hosting --server Nowin.vNext"
     }
 }
