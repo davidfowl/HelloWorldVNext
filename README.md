@@ -2,11 +2,6 @@
 
 First you'll need to install the KVM and KRE:
 
-#### OSX and *nix
-
-http://graemechristie.github.io/graemechristie/blog/2014/05/26/asp-dot-net-vnext-on-osx-and-linux/
-
-#### Windows
 https://github.com/aspnet/Home/wiki/version-manager
 
 ## Running the samples 
