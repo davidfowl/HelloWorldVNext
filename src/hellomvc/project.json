@@ -1,9 +1,9 @@
 {
     "dependencies": {
-        "Microsoft.AspNet.Mvc": "0.1-alpha-*",
-        "Nowin.vNext": ""
+        "Microsoft.AspNet.Mvc": "6.0.0-*",
+        "Kestrel": "1.0.0-*"
     },
     "commands": {
-        "web": "Microsoft.AspNet.Hosting --server Nowin.vNext"
+        "web": "Microsoft.AspNet.Hosting --server Kestrel"
     }
 }
