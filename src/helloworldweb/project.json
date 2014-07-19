@@ -1,8 +1,10 @@
 {
     "dependencies": {
-        "Kestrel": "1.0.0-*"
+        "Kestrel": "1.0.0-*",
+        "Nowin.vNext": ""
     },
     "commands": {
-        "web": "Microsoft.AspNet.Hosting --server Kestrel"
+        "web": "Microsoft.AspNet.Hosting --server Nowin.vNext",
+        "web-kestrel": "Microsoft.AspNet.Hosting --server Kestrel"
     }
 }
