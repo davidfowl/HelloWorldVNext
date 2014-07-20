@@ -1,6 +1,7 @@
 {
     "dependencies": {
         "Kestrel": "1.0.0-*",
+        "Microsoft.AspNet.WebSockets.Server": "1.0.0-*",
         "Nowin.vNext": ""
     },
     "commands": {
