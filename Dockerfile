@@ -10,15 +10,14 @@
 #
 FROM ahmetalpbalkan/aspnet-vnext:alpha
 MAINTAINER Ahmet Balkan <ahmetalpbalkan at gmail.com>
+EXPOSE 8080
 
 RUN mkdir /app
 ADD src /app/src
 ADD NuGet.Config /app/NuGet.Config
 
 WORKDIR /app/src
-RUN /bin/bash -c "source ~/.kre/kvm/kvm.sh && kpm restore"
+RUN kpm restore
 
 WORKDIR helloworldweb
-ENTRYPOINT /bin/bash -c "source ~/.kre/kvm/kvm.sh && \
-	k web"
-EXPOSE 8080
+ENTRYPOINT k web
