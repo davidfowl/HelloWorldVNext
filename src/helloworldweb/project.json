@@ -2,7 +2,7 @@
     "dependencies": {
         "Kestrel": "1.0.0-*",
         "Microsoft.AspNet.WebSockets.Server": "1.0.0-*",
-        "Nowin.vNext": ""
+        "Nowin.vNext": "1.0.0-*"
     },
     "commands": {
         "web": "Microsoft.AspNet.Hosting --server Nowin.vNext",

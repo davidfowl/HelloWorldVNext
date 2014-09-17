@@ -1,7 +1,7 @@
 {
     "dependencies": {
         "Microsoft.AspNet.Mvc": "6.0.0-*",
-        "Nowin.vNext": "",
+        "Nowin.vNext": "1.0.0-*",
         "Kestrel": "1.0.0-*"
     },
     "commands": {
