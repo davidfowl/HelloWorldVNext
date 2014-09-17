@@ -7,7 +7,7 @@ using Microsoft.AspNet.Http;
 
 public class Startup
 {
-    public void Configure(IBuilder app)
+    public void Configure(IApplicationBuilder app)
     {
         // Add managed websocket middleware for servers
         // that support opaque upgrade (like kestrel)

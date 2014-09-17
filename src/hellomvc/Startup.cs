@@ -5,7 +5,7 @@ using Microsoft.Framework.DependencyInjection;
 
 public class Startup
 {
-    public void Configure(IBuilder app)
+    public void Configure(IApplicationBuilder app)
     {
         app.UseServices(services =>
         {
